@@ -1,0 +1,36 @@
+.flex-container {
+
+}
+.Test{
+
+}
+.BODY{}
+.Body{
+    color:white;
+    font-size: 48px;
+}
+.Header{
+   Color:white;
+   font-size: 5px;
+  
+    
+}
+.flex-container div {
+    height: 400px;
+}
+.flex-container .one {
+    background: #1f2937;
+    padding: 16px;
+   
+
+}
+
+.flex-container .two {
+    background: white;
+}
+.flex-container .three{
+    background: #E5E7EB;
+}
+.flex-container .four{
+    background: white;
+}
