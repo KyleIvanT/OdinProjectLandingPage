@@ -28,48 +28,61 @@ a{
     height: 500px;
     width: 1500px;
 }
- .flex-container .HeaderBox{
+ .one .HeaderBox{
     
     height:100px;
     width:1500px;
-    text-align: right;
-    position:relative;
+    text-align: center;
+   
+    
    
 
 }
-.HeaderLogo{
+ .HeaderBox .HeaderLogo{
+    width: 100px;
+    height:20px;
     font-size: 18px;
     color:white;
-    position:absolute;
-    text-align: left;
-    margin-left: 15%;
-   
-
+    border: 2px solid red;
+    text-align: center;
+    display:inline-block;
 }
-.flex-container .Body{
-    height:350px;
-    width:700px;
-    
-   
+.one .Body{
+    text-align: center;
 }
-.HeaderLink{
+.HeaderBox .HeaderLink{
     font-size: 18px;
     color: white;
-    margin-right: 5%;
+    border:2px solid red;
+    display:inline-block;
+    margin-left: 5%;
+
+  
     
 }
-   .flex-container .bodyText{
+   .Body .bodyText{
     height:100px;
     width:300px;
     font-size:48px;
     color: white;
     text-align: left;
-    margin-left: 32%;
+    
    overflow-wrap: break-word;
+   display:inline-block;
     
 }
 
-.flex-container .subText{
+.one .pic {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+}
+
+img{
+    height:auto;
+    width:300px;
+}
+.one .subText{
     height:60px;
     width:300px;
     font-size: 18px;
@@ -77,7 +90,7 @@ a{
     padding-bottom:20px;
    
 }
-.flex-container .signup{
+.one .signup{
    
     font-size: 20px;
     text-align: center;
