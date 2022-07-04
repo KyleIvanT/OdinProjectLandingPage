@@ -90,7 +90,7 @@ img{
     padding-bottom:20px;
    
 }
-.one .signup{
+.signup{
    
     font-size: 20px;
     text-align: center;
@@ -167,7 +167,6 @@ img{
 }
 .three-content{
     border:4px solid red;
-    border:4px solid red;
     height:400px;
     padding: 50px;
 }
@@ -201,4 +200,57 @@ img{
     padding: 16px; 
     height: 500px;
     width: 1500px;
+}
+
+.four-content{
+    border:4px solid black;
+    display: flex;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+.four-text-box{
+    border:4px solid black;
+    border-radius: 35px;
+    width:1300px;
+    background:#3882F6;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    display:flex;
+}
+.inner-cotent{
+    border:4px solid red;
+}
+
+.four-sign{
+    flex-direction: row;
+    align-items: row;
+    justify-content: space-evenly;
+    display: flex;
+}
+.four-header { 
+    border:2px solid red;
+    color:white;
+    font-size: 25px; 
+     
+}
+ .four-text-box p{
+    border:2px solid red;
+    font-size:15px;
+    color:white;
+} 
+
+ .four-sign .signup{
+   
+    font-size: 20px;
+    text-align: center;
+    border-radius:25px;
+    border: 2px solid white;
+    width: 125px;
+    
 }
